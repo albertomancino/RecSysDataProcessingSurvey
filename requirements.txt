@@ -1,0 +1,4 @@
+requests
+scholarly
+python-dotenv
+tqdm
