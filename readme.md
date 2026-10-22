@@ -1,8 +1,9 @@
 # Recommender Systems Survey Collection
 
 This repository contains the retrieval and filtering code used as part of the
-literature-analysis workflow for a survey of recommender systems. It collects
-candidate survey papers from [DBLP](https://dblp.org/) and
+literature-analysis workflow for *Data Processing for Offline Evaluation in
+Recommender Systems: Standard Practices and Multimodal Feature Extraction*.
+It collects candidate survey papers from [DBLP](https://dblp.org/) and
 [Semantic Scholar](https://www.semanticscholar.org/), then filters and
 deduplicates the collected summary. It is a supporting retrieval and screening
 utility: the generated lists should be reviewed before being treated as a
