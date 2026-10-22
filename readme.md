@@ -1,10 +1,20 @@
 # Recommender Systems Survey Collection
 
-This repository collects candidate survey papers on recommender systems from
-[DBLP](https://dblp.org/) and [Semantic Scholar](https://www.semanticscholar.org/),
-then filters and deduplicates the collected summary. It is a retrieval and
-screening utility: the generated lists should be reviewed before being treated
-as a definitive bibliography.
+This repository contains the retrieval and filtering code used as part of the
+literature-analysis workflow for a survey of recommender systems. It collects
+candidate survey papers from [DBLP](https://dblp.org/) and
+[Semantic Scholar](https://www.semanticscholar.org/), then filters and
+deduplicates the collected summary. It is a supporting retrieval and screening
+utility: the generated lists should be reviewed before being treated as a
+definitive bibliography.
+
+In the associated survey, the final selection also considered venue quality
+(Q1 journals according to Scimago Journal Rank, and A/A* conferences according
+to CORE) and chose the most recent eligible survey when multiple surveys
+covered the same domain. Those venue-ranking and final per-domain selection
+steps are **not implemented in this repository**. In particular, the emitted
+`Ranking` column is empty; this code covers the candidate retrieval,
+metadata-based filtering, and deduplication portion of the workflow.
 
 ## Repository contents
 
